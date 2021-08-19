@@ -24,3 +24,10 @@ These VLAN networks are distributed to the following departments
 • Computing Exam - VLAN200
 • HR Department - VLAN300
 • Finance Department - VLAN400
+
+These are few network methodologies applied to design this University Area Network,
+• OSPF
+• CIDR
+• VLAN
+• STP
+• NAT
