@@ -18,3 +18,10 @@ Cisco 3725 router x 3 – Converted into Ethernet Switch to make a Loop to show 
 1 Cloud
 
 You can download the router images from GNS3 web.
+
+These are few network methodologies applied to design this University Area Network,
+• OSPF
+• CIDR
+• VLAN
+• STP
+• NAT
