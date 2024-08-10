@@ -1,27 +1,25 @@
-# gns3networkproject
-University Network: 
+# University Network Overview
 
-We have taken a small university network as our network scenario. A university called “MDBW” has its own network with 4 VLANS. 
-It has 2 departments which are Computing department and Admin department in the main network and 2 Marketing offices in 2 different locations. 
-Those marketing offices has only one VLAN for each. We have 2 leased line cables from ISP to connect Main campus and Marketing offices. 
-We will be using Star Topology for this scenario with use of Switching network and Virtual Local Area Networks.
+In this project, we have modeled a small university network scenario. The university, named **MDBW**, operates its own network consisting of four VLANs. The network includes two main departments: the Computing Department and the Administration Department, both located on the main campus. Additionally, there are two Marketing offices situated in different locations, each with a single VLAN.
 
+To connect the main campus with the Marketing offices, we have established two leased line connections provided by an ISP. The network topology used in this scenario is a Star Topology, incorporating Switching networks and Virtual Local Area Networks (VLANs).
 
-Important: 
+## Important Notes
 
-You will be able to run this gns3 project on a 8GB RAM pc. But that's the minimum. Better to try this project on a 12GB+ RAM machine. 
-Network Equipment’s used : 
-Cisco 3745 router x 4 (1 router used to configure NAT)
-Cisco 3725 router x 3 – Converted into Ethernet Switch to make a Loop to show the STP
-5 default access switches available in GNS3
-8 Normal PC
-1 Cloud
+This GNS3 project can be run on a PC with 8GB of RAM, though this is the minimum requirement. For better performance, it is recommended to use a machine with 12GB or more of RAM.
 
-You can download the router images from GNS3 web.
+## Network Equipment Used
+- **Cisco 3745 Routers**: 4 units (with 1 router configured for NAT)
+- **Cisco 3725 Routers**: 3 units (converted into Ethernet switches to demonstrate STP)
+- **Default Access Switches in GNS3**: 5 units
+- **Standard PCs**: 8 units
+- **Cloud**
 
-These are few network methodologies applied to design this University Area Network,
-• OSPF
-• CIDR
-• VLAN
-• STP
-• NAT
+Router images can be downloaded from the GNS3 website.
+
+## Network Methodologies Applied
+- **OSPF** (Open Shortest Path First)
+- **CIDR** (Classless Inter-Domain Routing)
+- **VLAN** (Virtual Local Area Network)
+- **STP** (Spanning Tree Protocol)
+- **NAT** (Network Address Translation)
