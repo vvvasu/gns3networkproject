@@ -13,7 +13,6 @@ This GNS3 project can be run on a PC with 8GB of RAM, though this is the minimum
 - **Cisco 3725 Routers**: 3 units (converted into Ethernet switches to demonstrate STP)
 - **Default Access Switches in GNS3**: 5 units
 - **Standard PCs**: 8 units
-- **Cloud**
 
 Router images can be downloaded from the GNS3 website.
 
